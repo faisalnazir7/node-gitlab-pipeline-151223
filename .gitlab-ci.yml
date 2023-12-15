@@ -8,6 +8,10 @@ build:
     - apt update -y
     - apt install npm -y
     - apt install
+  artifacts:
+    paths:
+      - node_modules
+      - package-lock.json
 
 deploy:
   stage: deploy_stage
