@@ -7,7 +7,7 @@ build:
   script:
     - apt update -y
     - apt install npm -y
-    - apt install
+    - npm install
   artifacts:
     paths:
       - node_modules/
